@@ -1,0 +1,15 @@
+void action(){
+// Move forward once
+	move();
+// Pick up a clam
+  pickUpClam();
+// Move forward twice
+  move();
+  move();
+// Put down a clam
+  putDownClam();
+// turn right
+  turnRight();
+// Move forward once
+  move();
+}

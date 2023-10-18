@@ -1,0 +1,51 @@
+void action(){  
+  // To turn right
+	turnRight();
+  // To move forward once
+  move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+	  // To pick up a clam
+    pickUpClam();
+  }
+  // To move forward once
+  move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+	  // To pick up a clam
+    pickUpClam();
+  }
+  // To turn left
+  turnLeft();
+  // To move forward once
+  move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+	  // To pick up a clam
+    pickUpClam();
+  }
+  // To move forward once
+  move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+	  // To pick up a clam
+    pickUpClam();
+  }
+  // To turn left
+  turnLeft();
+  // To move forward once
+  move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+	  // To pick up a clam
+    pickUpClam();
+  }
+  // To move forward once
+  move();
+  
+  // To put down all clams
+  putDownClam();
+  putDownClam();
+  putDownClam();
+}
+

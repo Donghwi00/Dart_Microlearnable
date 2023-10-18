@@ -1,0 +1,16 @@
+void action(){
+	for(int i=0; i<3; i++){
+		for(int j=0; j<5; j++){
+			//to pick clams up and move forward
+			pickUpClam();
+			move();
+		}
+		//to turn right
+		turnRight();
+	}
+	for(int i=0; i<15; i++){
+		//to put fifteen clams down
+		putDownClam();
+	}
+}
+

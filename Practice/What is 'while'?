@@ -1,0 +1,22 @@
+void action(){
+	int i = 0;
+	int j = 0;
+	while(i<3){
+		j = 0;
+		while(j<5){
+			//to pick clams up and move
+			pickUpClam();
+			move();
+			j++;
+		}
+		//to turn right
+		turnRight();
+		i++;
+	}
+	i = 0;
+	while(i<15){
+		//to put fifteen clams down
+		putDownClam();
+		i++;
+	}
+}

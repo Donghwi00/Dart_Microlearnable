@@ -1,0 +1,93 @@
+void action(){  
+  turnRight(); move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+    // To pick up a clam
+    pickUpClam();
+  }
+  else if(isMableOnDestination()){ /* Check if Mable is on a destination */
+    // To put down all clams
+    putDownClam();
+    putDownClam();
+    putDownClam();
+    putDownClam();
+  }
+  else{ /* If there are no clams and Mable is not on the destination */
+    // To move forward once
+    move();
+  }
+  
+  turnLeft(); move();
+
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+    // To pick up a clam
+    pickUpClam();
+  }
+  else if(isMableOnDestination()){ /* Check if Mable is on a destination */
+    // To put down all clams
+    putDownClam();
+    putDownClam();
+    putDownClam();
+    putDownClam();
+  }
+  else{ /* If there are no clams and Mable is not on the destination */
+    // To move forward once
+    move();
+  }
+  
+  turnRight(); move();
+  turnLeft(); move();
+  turnRight(); move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+    // To pick up a clam
+    pickUpClam();
+  }
+  else if(isMableOnDestination()){ /* Check if Mable is on a destination */
+    // To put down all clams
+    putDownClam();
+    putDownClam();
+    putDownClam();
+    putDownClam();
+  }
+  else{ /* If there are no clams and Mable is not on the destination */
+    // To move forward once
+    move();
+  }
+  
+  turnLeft(); move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+    // To pick up a clam
+    pickUpClam();
+  }
+  else if(isMableOnDestination()){ /* Check if Mable is on a destination */
+    // To put down all clams
+    putDownClam();
+    putDownClam();
+    putDownClam();
+    putDownClam();
+  }
+  else{ /* If there are no clams and Mable is not on the destination */
+    // To move forward once
+    move();
+  }
+  
+  turnRight(); move();
+  
+  if(isMableOnClam()){ /* Check if clams exist where Mable stand */
+    // To pick up a clam
+    pickUpClam();
+  }
+  else if(isMableOnDestination()){ /* Check if Mable is on a destination */
+    // To put down all clams
+    putDownClam();
+    putDownClam();
+    putDownClam();
+    putDownClam();
+  }
+  else{ /* If there are no clams and Mable is not on the destination */
+    // To move forward once
+    move();
+  }
+}
